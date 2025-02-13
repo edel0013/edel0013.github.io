@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(197, 174, 220);
+    font-family: 'Times New Roman', Times, serif;
+}
+/* this is a comment example */
+
+h1{
+    color: darkviolet;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1, h2{
+    text-decoration: underline;
+}
+
+/* class selector */
+.btn{
+background-color:darkviolet;
+color:wheat;
+padding: 16px 20px;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+border: none;
+/* outline */
+box-shadow: 1px 1px 5px 6px rgb(233, 236, 239);
+}
+
+/* id selector */
+#IntroPara{
+    font-style: italic;
+}
+
+article h2{
+    color: darkviolet;
+}
+
+h2{
+color: darkviolet;
+}
+
+ li{ 
+    color: darkviolet;
+ } 
+
+ /* changing the colour of list items, adding child number, adding odd or even, 2n+1 */
+
+ul li:nth-child(2n+1){
+    color: black;
+}
+
+.secondClass{
+    border: 2px solid black
+}
+
+/* form styles */
+form{
+    background-color: rgb(233, 236, 239);
+    max-width: 600px;
+    /* margin vs padding */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+
+input, textarea {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 16px;
+    width: 90%;
+}
