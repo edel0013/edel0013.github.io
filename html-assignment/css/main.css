@@ -1,0 +1,40 @@
+body{
+font-size: 18px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+header, footer{
+    background-color: rgb(148, 129, 165);
+}
+
+.site-title{
+    color: rgb(216, 210, 222);
+}
+
+#my-image{
+    box-shadow: 0px 0px 2px 1px  rgb(148, 129, 165);
+   width: 50%; 
+}
+
+section ul {
+    list-style-type: square;
+}
+
+section ul li:nth-child(odd){
+    background-color: rgb(148, 129, 165);
+    padding: 6px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color:rgb(216, 210, 222) ;
+} 
+
+nav a:hover, nav a:focus {
+    background-color: blueviolet;
+}
+
+nav ul{
+    list-style: none;
+}
+

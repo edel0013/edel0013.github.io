@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(255, 198, 255);
+}
+
+/* changing colour of header bg */
+
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+/* changing text colour */
+
+p {
+    color: rgb(31, 7, 47);
+}
+
+/* underlining the headings */
+
+h1, h2, h3{
+    color: rgb(53, 27, 71);
+    text-decoration: underline;
+}
+
+/* adding a border to paragraph in section*/
+
+section p{
+    border: 2px solid black;
+}
+
+/* using id to target element*/
+
+#aboutus {
+    background-color:  rgb(255, 255, 255);
+}
+
+/* class to target element */
+
+.imp-para {
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+}
+
+/* nth child to target elements */
+section ul li:nth-child(odd){
+background-color: blueviolet;
+}
