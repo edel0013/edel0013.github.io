@@ -25,16 +25,16 @@ section ul li:nth-child(odd){
     padding: 6px;
 }
 
-nav a {
+.hi a {
     text-decoration: none;
     background-color:rgb(216, 210, 222) ;
 } 
 
-nav a:hover, nav a:focus {
+.hi a:hover, .hi a:focus {
     background-color: blueviolet;
 }
 
-nav ul{
+.hi ul{
     list-style: none;
 }
 
